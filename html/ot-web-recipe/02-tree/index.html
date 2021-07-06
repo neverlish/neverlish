@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="fontello/css/fontello.css">
+	<style>
+		.tree {
+			color: #393939;
+		}
+		.tree, .tree ul {
+			list-style: none;
+			padding-left: 17px;
+		}
+		.tree *:before {
+			width: 17px;
+			height: 17px;
+			display: inline-block;
+		}
+		.tree label {
+			cursor: pointer;
+		}
+		.tree label:before {
+			content: '\f256';
+			font-family: fontello;
+		}
+		.tree a {
+			text-decoration: none;
+			color: #393939;
+		}
+		.tree a:before {
+			content: '\e800';
+			font-family: fontello;
+		}
+		.tree input[type='checkbox'] {
+			display: none;
+		}
+		.tree input[type='checkbox']:checked~ul {
+			display: none;
+		}
+		.tree input[type='checkbox']:checked+label:before {
+			content: '\f255';
+			font-family: fontello;
+		}
+	</style>
+</head>
+
+<body>
+	<ul class='tree'>
+		<li>
+			<input type="checkbox" id='root'>
+			<label for='root'>ROOT</label>
+			<ul>
+				<li><a href='https://opentutorials.org'>node1</a></li>
+				<li><a href='https://opentutorials.org'>node2</a></li>
+				<li>
+					<input type="checkbox" id="node3">
+					<label for='node3'>node3</label>
+					<ul>
+						<li><a href='https://opentutorials.org'>node31</a></li>
+						<li><a href='https://opentutorials.org'>node32</a></li>
+						<li><a href='https://opentutorials.org'>node33</a></li>
+					</ul>
+				</li>
+
+			</ul>
+		</li>
+	</ul>
+	
+</body>
+</html>

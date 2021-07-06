@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://source.unsplash.com/category/nature/1600x900);
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+}
+
+article {
+  background-color: white;
+  color: black;
+  max-width: 20rem;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
+  font-weight: 200;
+}
+
+.control {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.control ul {
+  list-style: none;
+  padding-left: 0; 
+}
+
+.control li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+.control a {
+  color: white;
+  text-decoration: none;
+}
+
+.control > * {
+  display: inline-block;
+}
+
+.control .player {
+  position: absolute;
+  right: 1rem;
+}
+
+.control .player a {
+  font-size: 1.2rem;
+}
+
+.control .player a:hover {
+  color: black;
+}
+
+.control .player a > span {
+  display: none;
+}
