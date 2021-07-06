@@ -1,0 +1,19 @@
+{
+  "name": "jpub-web-crawling-technique",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/neverlish/neverlish.git"
+  },
+  "author": "neverlish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neverlish/neverlish/issues"
+  },
+  "homepage": "https://github.com/neverlish/neverlish#readme"
+}

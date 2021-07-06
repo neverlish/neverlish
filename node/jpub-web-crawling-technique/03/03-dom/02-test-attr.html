@@ -1,0 +1,26 @@
+<div id='main-goods' class='page'>
+  <h1>과일이나 야채</h1>
+  <ul id='fr-list'>
+    <li data-sp='j' class='red green'>사과</li>
+    <li class="purple">포도</li>
+    <li class="yellow">레몬</li>
+    <li class="yellow">오렌지</li>
+  </ul>
+  <ul id='ve-list'>
+    <li data-sp='b' class='white green'>무</li>
+    <li data-sp='j' class='green'>아보카도</li>
+    <li class='red green'>당근</li>
+    <li data-sp='b' class='white'>연근</li>
+  </ul>
+</div>
+
+
+<!-- 
+// #ve-list의 바로 밑 레벨에 있는 요소 중에 두 번째 요소
+$('#ve-list > li:nth-child(2)')
+
+// #ve-list의 바로 밑 레벨에 있는 요소 중에 두 번째 요소이자 li 태그이며 클래스가 green 인 것
+$('#ve-list > li.green:nth-child(2)')
+
+// data-sp의 속성 값이 'j'인 두 번째 요소
+$('[data-sp="j"]:nth-child(2)')

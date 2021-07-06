@@ -1,0 +1,5 @@
+node_modules/
+*/*.html
+*/img/
+*/nodejs.org/
+*/*.txt
