@@ -1,0 +1,28 @@
+{
+  "name": "imagini-service",
+  "version": "0.0.1",
+  "author": " <>",
+  "private": true,
+  "scripts": {
+    "start": "node imagini-service.js",
+    "debug": "node-debug imagini-service.js --debug-brk",
+    "test": "mocha specs --reporter spec",
+    "docker": "node scripts/docker.js"
+  },
+  "engines": {
+    "node": ">=6.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "fwsp-config": "1.1.5",
+    "fwsp-server-response": "2.2.6",
+    "hydra-express": "1.7.1",
+    "sharp": "^0.23.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "3.16.0",
+    "mocha": "3.2.0",
+    "superagent": "3.5.2"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "seneca": "^3.14.1",
+    "sharp": "^0.23.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "async": "^3.1.0",
+    "seneca": "^3.14.1",
+    "seneca-basic": "^0.6.0",
+    "seneca-entity": "^4.1.0",
+    "seneca-jsonfile-store": "^1.1.0"
+  }
+}
